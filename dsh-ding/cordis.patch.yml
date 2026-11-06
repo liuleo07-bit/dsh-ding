@@ -1,0 +1,9 @@
+# dsh-ding 组合包层（bundle layer）。
+#
+# 本包在 package.json 中声明 dsh.bundle.patch 指向本文件；插件管理器安装后会
+# 把本包收进 profile 的 dsh.profile.bundles 层列表。宿主半部（index.js）是
+# 一个空的 apply()，所有逻辑在客户端半部（client.js）里，由 web 的模块名录
+# 根据 dsh.client 声明挂载。
+- insert:
+    - id: dsh-ding
+      name: dsh-ding

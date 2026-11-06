@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Ding">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F5C542"/>
+      <stop offset="1" stop-color="#E39A16"/>
+    </linearGradient>
+  </defs>
+  <path d="M32 7c-2.5 0-4.5 2-4.5 4.5v1.3C19.4 14.9 14 21.9 14 30v11.5l-4.3 6.1c-.8 1.1 0 2.7 1.4 2.7h41.8c1.4 0 2.2-1.6 1.4-2.7L50 41.5V30c0-8.1-5.4-15.1-13.5-17.2v-1.3C36.5 9 34.5 7 32 7z" fill="url(#g)"/>
+  <path d="M26 54.2c.9 3 3.2 4.8 6 4.8s5.1-1.8 6-4.8H26z" fill="#C97E0B"/>
+  <path d="M8 22c-2.2 3-3.4 6.6-3.5 10.2M56 22c2.2 3 3.4 6.6 3.5 10.2" stroke="#8FB7E8" stroke-width="3" stroke-linecap="round" fill="none" opacity=".9"/>
+</svg>

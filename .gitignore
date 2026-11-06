@@ -1,0 +1,14 @@
+# 依赖与构建产物（本插件本身零依赖，测试也不需要安装）
+node_modules/
+
+# 本地验证/临时目录
+.verify/
+.inspect/
+.check/
+*.log
+
+# 编辑器 / 系统
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

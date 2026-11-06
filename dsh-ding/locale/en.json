@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Ding",
+    "description": "Plays a short ding when the current turn needs your input (questions, approvals, plan review) or finishes."
+  }
+}

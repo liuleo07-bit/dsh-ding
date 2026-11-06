@@ -1,0 +1,50 @@
+{
+  "name": "dsh-ding",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "会话提示音：需要你操作（提问 / 审批 / 计划确认）或当前回合完成时播放「叮」声。",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "notification",
+    "sound",
+    "ding"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuleo07-bit/dsh-ding.git"
+  },
+  "homepage": "https://github.com/liuleo07-bit/dsh-ding#readme",
+  "bugs": {
+    "url": "https://github.com/liuleo07-bit/dsh-ding/issues"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-session",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ]
+    }
+  }
+}
